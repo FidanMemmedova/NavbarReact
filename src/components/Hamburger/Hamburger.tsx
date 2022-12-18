@@ -1,8 +1,10 @@
 import "../Hamburger/Hamburger.scss";
+import { FaBars } from "react-icons/fa";
+// import { useState } from "react";
 export const Hamburger: React.FC = () => {
   return (
     <div className="hamburger-icon">
-      <i className="fa-solid fa-bars"></i>
+      <FaBars />
     </div>
   );
 };
